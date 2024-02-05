@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_color">#5181ff</color>
+    <color name="sub_color_01">#ff5d5d</color>
+    <color name="sub_color_02">#56b727</color>
+    <color name="btn_color">@color/main_color</color>
+    <color name="blue_color">#0066FF</color>
+    <color name="colorDCGray">#DCDCDC</color>
+    <color name="colorPrimary">@color/main_color</color>
+    <color name="colorPrimaryDark">@color/main_color</color>
+    <color name="colorAccent">@color/sub_color_02</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="c_757575">#757575</color>
+
+    <color name="c_141425">#141425</color>
+    <color name="c_222233">#222233</color>
+    <color name="c_2f2f3f">#2f2f3f</color>
+    <color name="c_3c3c4a">#3c3c4a</color>
+    <color name="c_7097fc">#7097fc</color>
+
+
+    <!-- etc color -->
+    <color name="c_000000_20">#33000000</color>
+    <color name="c_000000_75">#bf000000</color>
+    <color name="c_000000_80">#cc000000</color>
+    <color name="c_ffff00">#ffff00</color>
+    <color name="c_eeeeee">#eeeeee</color>
+</resources>

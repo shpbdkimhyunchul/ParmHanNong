@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.parmhannong.app-mergeDebugResources-26:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.parmhannong.app-mergeDebugResources-41:/values-large-v4/values-large-v4.xml",
             "map": [
+                {
+                    "source": "/Users/gimhyeoncheol/.gradle/caches/transforms-3/db3405a25bbab8b69dc22aba11b05022/transformed/material-1.11.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,169,285,407",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "164,280,402,536"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "752,866,982,1104",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "861,977,1099,1233"
+                    }
+                },
                 {
                     "source": "/Users/gimhyeoncheol/.gradle/caches/transforms-3/b3627ca143232ec2ceb6e319eb18971d/transformed/appcompat-1.6.1/res/values-large-v4/values-large-v4.xml",
                     "from": {

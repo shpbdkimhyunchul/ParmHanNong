@@ -21,104 +21,274 @@
 17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 17-->[com.facebook.flipper:flipper:0.201.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:5-76
 17-->[com.facebook.flipper:flipper:0.201.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:22-73
-18
-19    <permission
-19-->[androidx.core:core:1.9.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-20        android:name="com.parmhannong.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-20-->[androidx.core:core:1.9.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-21        android:protectionLevel="signature" />
-21-->[androidx.core:core:1.9.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-22
-23    <uses-permission android:name="com.parmhannong.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-23-->[androidx.core:core:1.9.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-23-->[androidx.core:core:1.9.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-24
-25    <application
-25-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:5:5-27:19
-26        android:name="com.parmhannong.MainApplication"
-26-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:6:7-38
-27        android:allowBackup="false"
-27-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:10:7-34
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.9.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-29        android:debuggable="true"
-30        android:extractNativeLibs="true"
-31        android:icon="@mipmap/ic_launcher"
-31-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:8:7-41
-32        android:label="@string/app_name"
-32-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:7:7-39
-33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:9:7-52
-34        android:theme="@style/AppTheme"
-34-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:11:7-38
-35        android:usesCleartextTraffic="true" >
-35-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/debug/AndroidManifest.xml:6:9-44
-36        <activity
-36-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:12:7-23:18
-37            android:name="com.parmhannong.IntroActivity"
-37-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:13:9-38
-38            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-38-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:15:9-118
-39            android:exported="true"
-39-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:18:9-32
-40            android:label="@string/app_name"
-40-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:14:9-41
-41            android:launchMode="singleTask"
-41-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:16:9-40
-42            android:windowSoftInputMode="adjustResize" >
-42-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:17:9-51
-43            <intent-filter>
-43-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:19:9-22:25
-44                <action android:name="android.intent.action.MAIN" />
-44-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:20:13-65
-44-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:20:21-62
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:21:13-73
-46-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:21:23-70
-47            </intent-filter>
-48        </activity>
-49        <activity android:name="com.parmhannong.BaseActivity" />
-49-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:24:9-65
-49-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:24:19-62
-50        <activity android:name="com.parmhannong.MainActivity" />
-50-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:25:9-65
-50-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:25:19-62
-51        <activity
-51-->[com.facebook.react:react-android:0.73.3] /Users/gimhyeoncheol/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:19:9-21:40
-52            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-52-->[com.facebook.react:react-android:0.73.3] /Users/gimhyeoncheol/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:20:13-77
-53            android:exported="false" />
-53-->[com.facebook.react:react-android:0.73.3] /Users/gimhyeoncheol/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:21:13-37
-54
-55        <provider
-55-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-56            android:name="androidx.startup.InitializationProvider"
-56-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-57            android:authorities="com.parmhannong.androidx-startup"
-57-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-58            android:exported="false" >
-58-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-59            <meta-data
-59-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-60-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-61                android:value="androidx.startup" />
-61-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-62            <meta-data
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-63-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-64                android:value="androidx.startup" />
-64-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-65        </provider>
-66
-67        <meta-data
-67-->[com.facebook.soloader:soloader:0.10.5] /Users/gimhyeoncheol/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
-68            android:name="com.facebook.soloader.enabled"
-68-->[com.facebook.soloader:soloader:0.10.5] /Users/gimhyeoncheol/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
-69            android:value="false" />
-69-->[com.facebook.soloader:soloader:0.10.5] /Users/gimhyeoncheol/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
-70    </application>
-71
-72</manifest>
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-installations:17.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/01f00aeb5c3f9efc0de4d93ff857b0ce/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+18-->[com.google.firebase:firebase-installations:17.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/01f00aeb5c3f9efc0de4d93ff857b0ce/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:22-76
+19
+20    <permission
+20-->[androidx.core:core:1.12.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/37090c8cbd1dedc6ee2ba619cf52b6bb/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.parmhannong.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.12.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/37090c8cbd1dedc6ee2ba619cf52b6bb/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.12.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/37090c8cbd1dedc6ee2ba619cf52b6bb/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.parmhannong.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.12.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/37090c8cbd1dedc6ee2ba619cf52b6bb/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.12.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/37090c8cbd1dedc6ee2ba619cf52b6bb/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:5:5-27:19
+27        android:name="com.parmhannong.application.MainApplication"
+27-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:6:7-50
+28        android:allowBackup="false"
+28-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:10:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.12.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/37090c8cbd1dedc6ee2ba619cf52b6bb/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:8:7-41
+33        android:label="@string/app_name"
+33-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:7:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:9:7-52
+35        android:theme="@style/AppTheme"
+35-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:11:7-38
+36        android:usesCleartextTraffic="true" >
+36-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/debug/AndroidManifest.xml:6:9-44
+37        <activity
+37-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:12:7-23:18
+38            android:name="com.parmhannong.IntroActivity"
+38-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:13:9-38
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+39-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:15:9-118
+40            android:exported="true"
+40-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:18:9-32
+41            android:label="@string/app_name"
+41-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:14:9-41
+42            android:launchMode="singleTask"
+42-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:16:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:17:9-51
+44            <intent-filter>
+44-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:19:9-22:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:20:13-65
+45-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:20:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:21:13-73
+47-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:21:23-70
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.parmhannong.BaseActivity" />
+50-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:24:9-65
+50-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:24:19-62
+51        <activity android:name="com.parmhannong.MainActivity" />
+51-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:25:9-65
+51-->/Users/gimhyeoncheol/reactnative/ParmHanNong/android/app/src/main/AndroidManifest.xml:25:19-62
+52        <activity
+52-->[com.facebook.react:react-android:0.73.3] /Users/gimhyeoncheol/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:19:9-21:40
+53            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+53-->[com.facebook.react:react-android:0.73.3] /Users/gimhyeoncheol/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:20:13-77
+54            android:exported="false" />
+54-->[com.facebook.react:react-android:0.73.3] /Users/gimhyeoncheol/.gradle/caches/transforms-3/ff34738e7fb960ce73fd0d6cf687f2a8/transformed/jetified-react-android-0.73.3-debug/AndroidManifest.xml:21:13-37
+55
+56        <service
+56-->[com.google.firebase:firebase-crashlytics-ndk:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/3436176ce789263c205b48e987d5cfaa/transformed/jetified-firebase-crashlytics-ndk-18.6.1/AndroidManifest.xml:29:9-35:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[com.google.firebase:firebase-crashlytics-ndk:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/3436176ce789263c205b48e987d5cfaa/transformed/jetified-firebase-crashlytics-ndk-18.6.1/AndroidManifest.xml:30:13-84
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-crashlytics-ndk:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/3436176ce789263c205b48e987d5cfaa/transformed/jetified-firebase-crashlytics-ndk-18.6.1/AndroidManifest.xml:31:13-37
+60            <meta-data
+60-->[com.google.firebase:firebase-crashlytics-ndk:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/3436176ce789263c205b48e987d5cfaa/transformed/jetified-firebase-crashlytics-ndk-18.6.1/AndroidManifest.xml:32:13-34:85
+61                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+61-->[com.google.firebase:firebase-crashlytics-ndk:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/3436176ce789263c205b48e987d5cfaa/transformed/jetified-firebase-crashlytics-ndk-18.6.1/AndroidManifest.xml:33:17-122
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-crashlytics-ndk:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/3436176ce789263c205b48e987d5cfaa/transformed/jetified-firebase-crashlytics-ndk-18.6.1/AndroidManifest.xml:34:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-crashlytics:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0be0df674bd8b97e6fb606a4b470163c/transformed/jetified-firebase-crashlytics-18.6.1/AndroidManifest.xml:15:13-17:85
+64                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+64-->[com.google.firebase:firebase-crashlytics:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0be0df674bd8b97e6fb606a4b470163c/transformed/jetified-firebase-crashlytics-18.6.1/AndroidManifest.xml:16:17-126
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-crashlytics:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0be0df674bd8b97e6fb606a4b470163c/transformed/jetified-firebase-crashlytics-18.6.1/AndroidManifest.xml:17:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-crashlytics:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0be0df674bd8b97e6fb606a4b470163c/transformed/jetified-firebase-crashlytics-18.6.1/AndroidManifest.xml:18:13-20:85
+67                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+67-->[com.google.firebase:firebase-crashlytics:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0be0df674bd8b97e6fb606a4b470163c/transformed/jetified-firebase-crashlytics-18.6.1/AndroidManifest.xml:19:17-115
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-crashlytics:18.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0be0df674bd8b97e6fb606a4b470163c/transformed/jetified-firebase-crashlytics-18.6.1/AndroidManifest.xml:20:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-sessions:1.2.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/07a199e9c8a803545eba8dd79cb6fe1e/transformed/jetified-firebase-sessions-1.2.1/AndroidManifest.xml:29:13-31:85
+70                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+70-->[com.google.firebase:firebase-sessions:1.2.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/07a199e9c8a803545eba8dd79cb6fe1e/transformed/jetified-firebase-sessions-1.2.1/AndroidManifest.xml:30:17-117
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-sessions:1.2.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/07a199e9c8a803545eba8dd79cb6fe1e/transformed/jetified-firebase-sessions-1.2.1/AndroidManifest.xml:31:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-installations:17.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/01f00aeb5c3f9efc0de4d93ff857b0ce/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+73                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+73-->[com.google.firebase:firebase-installations:17.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/01f00aeb5c3f9efc0de4d93ff857b0ce/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-installations:17.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/01f00aeb5c3f9efc0de4d93ff857b0ce/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-installations:17.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/01f00aeb5c3f9efc0de4d93ff857b0ce/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+76                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+76-->[com.google.firebase:firebase-installations:17.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/01f00aeb5c3f9efc0de4d93ff857b0ce/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-installations:17.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/01f00aeb5c3f9efc0de4d93ff857b0ce/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/562e7a6c405debe3e5c43ad3373d9bd1/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+79                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+79-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/562e7a6c405debe3e5c43ad3373d9bd1/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/562e7a6c405debe3e5c43ad3373d9bd1/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+82                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+82-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/gimhyeoncheol/.gradle/caches/transforms-3/d4244d711c7da01262c1bd108fd7f4f6/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+85                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+85-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/gimhyeoncheol/.gradle/caches/transforms-3/d4244d711c7da01262c1bd108fd7f4f6/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/gimhyeoncheol/.gradle/caches/transforms-3/d4244d711c7da01262c1bd108fd7f4f6/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+87        </service>
+88        <service
+88-->[com.google.firebase:firebase-sessions:1.2.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/07a199e9c8a803545eba8dd79cb6fe1e/transformed/jetified-firebase-sessions-1.2.1/AndroidManifest.xml:22:9-25:40
+89            android:name="com.google.firebase.sessions.SessionLifecycleService"
+89-->[com.google.firebase:firebase-sessions:1.2.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/07a199e9c8a803545eba8dd79cb6fe1e/transformed/jetified-firebase-sessions-1.2.1/AndroidManifest.xml:23:13-80
+90            android:enabled="true"
+90-->[com.google.firebase:firebase-sessions:1.2.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/07a199e9c8a803545eba8dd79cb6fe1e/transformed/jetified-firebase-sessions-1.2.1/AndroidManifest.xml:24:13-35
+91            android:exported="false" />
+91-->[com.google.firebase:firebase-sessions:1.2.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/07a199e9c8a803545eba8dd79cb6fe1e/transformed/jetified-firebase-sessions-1.2.1/AndroidManifest.xml:25:13-37
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+95            android:authorities="com.parmhannong.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+97            android:exported="false"
+97-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+98            android:initOrder="100" />
+98-->[com.google.firebase:firebase-common:20.4.2] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4428d254c9d0b6dfb3bd7070fb67fe23/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:18.1.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0a7cb7034eac515addf17ce8efdbda3b/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:18.1.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0a7cb7034eac515addf17ce8efdbda3b/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:18.1.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0a7cb7034eac515addf17ce8efdbda3b/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+103
+104        <provider
+104-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+106            android:authorities="com.parmhannong.androidx-startup"
+106-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+109-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+110                android:value="androidx.startup" />
+110-->[androidx.emoji2:emoji2:1.2.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4445fe79bf905819a8215a4f222f1322/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4445fe79bf905819a8215a4f222f1322/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+113                android:value="androidx.startup" />
+113-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/gimhyeoncheol/.gradle/caches/transforms-3/4445fe79bf905819a8215a4f222f1322/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+114            <meta-data
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+116                android:value="androidx.startup" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+117        </provider>
+118
+119        <service
+119-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/95fae7dc9d3eafc42d9b4c94bdd5345e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+120            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+120-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/95fae7dc9d3eafc42d9b4c94bdd5345e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+121            android:exported="false" >
+121-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/95fae7dc9d3eafc42d9b4c94bdd5345e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+122            <meta-data
+122-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/95fae7dc9d3eafc42d9b4c94bdd5345e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+123                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+123-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/95fae7dc9d3eafc42d9b4c94bdd5345e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+124                android:value="cct" />
+124-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/95fae7dc9d3eafc42d9b4c94bdd5345e/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+125        </service>
+126
+127        <receiver
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+128            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+129            android:directBootAware="false"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+130            android:enabled="true"
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+131            android:exported="true"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+132            android:permission="android.permission.DUMP" >
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+134                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+137                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+138            </intent-filter>
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+140                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+143                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/gimhyeoncheol/.gradle/caches/transforms-3/0f099b6580320a91cfdc75edaa838a1d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+144            </intent-filter>
+145        </receiver>
+146
+147        <service
+147-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/6bb6ec677e8d122346024df76224ff87/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+148            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+148-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/6bb6ec677e8d122346024df76224ff87/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+149            android:exported="false"
+149-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/6bb6ec677e8d122346024df76224ff87/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+150            android:permission="android.permission.BIND_JOB_SERVICE" >
+150-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/6bb6ec677e8d122346024df76224ff87/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+151        </service>
+152
+153        <receiver
+153-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/6bb6ec677e8d122346024df76224ff87/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+154            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+154-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/6bb6ec677e8d122346024df76224ff87/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+155            android:exported="false" />
+155-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/gimhyeoncheol/.gradle/caches/transforms-3/6bb6ec677e8d122346024df76224ff87/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+156
+157        <meta-data
+157-->[com.facebook.soloader:soloader:0.10.5] /Users/gimhyeoncheol/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+158            android:name="com.facebook.soloader.enabled"
+158-->[com.facebook.soloader:soloader:0.10.5] /Users/gimhyeoncheol/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+159            android:value="false" />
+159-->[com.facebook.soloader:soloader:0.10.5] /Users/gimhyeoncheol/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+160    </application>
+161
+162</manifest>

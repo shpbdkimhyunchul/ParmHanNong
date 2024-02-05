@@ -1,3 +1,107 @@
 <resources>
-    <string name="app_name">ParmHanNong</string>
+<string name="app_name">CityParm</string>
+<string name="main_color" translatable="false">#5181ff</string>
+<string name="next" translatable="false">다음</string>
+<string name="confirm" translatable="false">확인</string>
+<string name="close" translatable="false">닫기</string>
+<string name="cancel" translatable="false">취소</string>
+<string name="yes" translatable="false">예</string>
+<string name="no" translatable="false">아니오</string>
+<string name="menu" translatable="false">메뉴</string>
+<string name="notice" translatable="false">공지</string>
+<string name="bluetooth_connect" translatable="false">연결됨</string>
+<string name="bluetooth_disconnect" translatable="false">끊김</string>
+<string name="save" translatable="false">저장</string>
+<string name="retry" translatable="false">다시 시도</string>
+<string name="msg_dvat_network" translatable="false">네트워크 연결이 안 되어 있거나 앱 이용이 차단된 환경일 수 있습니다.\n연결 상태 확인 후 다시 시도해 주시고, 이 오류가 반복된다면 고객센터로 문의 부탁드립니다.</string>
+<string name="vaccine_site_id" translatable="false">DGBCapital</string>
+<string name="vaccine_license_key" translatable="false">f775617c14674bcd99ba43aff2d2545d2220fea6</string>
+<string name="msg_dvac_002" translatable="false">필수 권한을 허용하지 않으면 사용할 수 없습니다.</string>
+<string name="msg_dvac_003" translatable="false">앱 서비스를 정상적으로 이용하시기 위해 이용권한을 모두 허용해주세요</string>
+
+<string name="common_002" translatable="false">오늘 그만보기</string>
+<string name="str_close" translatable="false">닫기</string>
+<string name="alert_title" translatable="false">알림</string>
+
+
+<string name="web_interface_yeskey_name" translatable="false">yeskeyAndroid</string>
+<string name="webview_user_agent" translatable="false">AppVersion/%s DGBCAP_MOFFICE NATIVE_WEBVIEW</string>
+
+
+<string name="text1" translatable="false">1. TranskeyCtrl Mode - 영문+숫자+특수문자</string>
+<string name="text2" translatable="false">2. TranskeyCtrl Mode - 숫자</string>
+<string name="text3" translatable="false">1. TranskeyActivity Mode - 영문+숫자+특수문자</string>
+<string name="text4" translatable="false">2. TranskeyActivity Mode - 숫자</string>
+<string name="text5" translatable="false">1. TranskeyPopover Mode - 영문+숫자+특수문자</string>
+<string name="text6" translatable="false">2. TranskeyPopover Mode - 숫자</string>
+<string name="text7" translatable="false">1. TranskeyDialog Mode - 영문+숫자+특수문자</string>
+<string name="text8" translatable="false">2. TranskeyDialog Mode - 숫자</string>
+<string name="custom_text" translatable="false">1. Custom TranskeyCtrl Mode</string>
+<string name="inputDataTitle" translatable="false">입력확인</string>
+<string name="inputDataDone" translatable="false">확인</string>
+<string name="inputDone" translatable="false">입력완료</string>
+
+<string name="btn_cancel" translatable="false">취소</string>
+<string name="btn_ok" translatable="false">확인</string>
+<string name="btn_add" translatable="false">추가</string>
+<string name="btn_init" translatable="false">초기화</string>
+
+<string name="msg_saved" translatable="false">저장되었습니다.</string>
+<string name="msg_title" translatable="false">OnePass</string>
+
+<string name="onepass" translatable="false">원패스</string>
+<string name="bio" translatable="false">생체인증서</string>
+<string name="token" translatable="false">토큰</string>
+<string name="setting" translatable="false">설정</string>
+<string name="biosetting" translatable="false">생체인증서 설정</string>
+
+<!-- OnePass -->
+<string name="onepass_reg" translatable="false">등록</string>
+<string name="onepass_auth" translatable="false">인증</string>
+<string name="onepass_dreg" translatable="false">해지</string>
+
+<!-- Bio -->
+<string name="bio_issue" translatable="false">발급</string>
+<string name="bio_sign" translatable="false">서명</string>
+<string name="bio_revoke" translatable="false">폐기</string>
+<string name="bio_update" translatable="false">갱신</string>
+<string name="bio_multiSign" translatable="false">멀티서명</string>
+
+<string name="bio_refCode" translatable="false">참조번호</string>
+<string name="bio_authCode" translatable="false">인가코드</string>
+<string name="bio_plainText" translatable="false">서명원문</string>
+
+<!-- Message -->
+<string name="do_reg" translatable="false">등록을 진행하시겠습니까?</string>
+<string name="do_rereg" translatable="false">재등록 하시겠습니까?</string>
+<string name="do_userreg" translatable="false">사용자 초기화 등록을 진행하시겠습니까?</string>
+<string name="do_initreg" translatable="false">단말 초기화 등록을 진행하시겠습니까?</string>
+
+<string name="dialog_msg" translatable="false">PUSH 인증 요청이 들어왔습니다.</string>
+
+<string name="err_overtry" translatable="false">최대 인증시도 횟수를 초과하였습니다.</string>
+<string name="err_fingerprint_reged" translatable="false">디바이스에 지문이 추가되어 재등록이 필요합니다.</string>
+<string name="err_fingerprint_notexist" translatable="false">디바이스 내 지문 등록이 안되어있습니다. 지문 등록이 필요합니다.</string>
+
+<string name="err_empty_input" translatable="false">입력된 값이 없습니다.</string>
+<string name="err_permission" translatable="false">권한이 없어 앱을 종료합니다.</string>
+<string name="err_check_device" translatable="false">지원 불가능한 단말입니다.</string>
+
+<!-- 전자서명 -->
+<string name="cmsSignButton" translatable="false">CMS서명</string>
+<string name="cmsSimpleSignButton" translatable="false">CMS축약</string>
+<string name="koscomSignButton" translatable="false">코스콤서명</string>
+<string name="koscomSimpleSignButton" translatable="false">코스콤축약</string>
+<string name="plainMsgEditText" translatable="false">this is plain msg. 전자서명 원문입니다.</string>
+<string name="signMsgEditText" translatable="false">서명 메시지가 표시됩니다.</string>
+<string name="vidMsgEditText" translatable="false">본인확인 메시지가 표시됩니다.(옵션)</string>
+<string name="userCertPubKeyEditText" translatable="false">사용자 공개키 정보가 표시됩니다.(옵션)</string>
+
+<!-- 인증서 복사 -->
+<string name="importMsg" translatable="false">1. PC에서 인증서복사 홈페이지 (http://ksbiz.raonsecure.com:8080/nxCR/demo/index.html)에 접속\n2. 간편인증서 내보내기/가져오기 버튼 클릭\n3. 컨트롤에서 인증서 내보내기 버튼 클릭\n4. PC에서 내보낼 인증서를 선택한 뒤, 인증서 암호 입력\n5. 위 인증번호를 PC화면에 입력하고 \"확인\" 버튼을 클릭\n6. 기기에서 [인증서가져오기] 버튼을 터치</string>
+<string name="exportMsg" translatable="false">1. PC에서 루멘소프트 홈페이지 (http://ksbiz.raonsecure.com:8080/nxCR/demo/index.html)에 접속\n2. 간편인증서 내보내기/가져오기 버튼 클릭\n3. 컨트롤에서 인증서 가져오기 버튼 클릭\n4. 컨트롤에 생성된 인증번호를 기기에 입력\n5. 기기에서 [인증서 내보내기] 버튼 터치 버튼 클릭\n6. 생성된 인증서 암호 입력\n7. [인증서 내보내기] 버튼 터치</string>
+<string name="certImportButton" translatable="false">인증서 가져오기</string>
+<string name="certexportButton" translatable="false">인증서 내보내기</string>
+<string name="certQRButton" translatable="false">인증서 QR복사 스캐너 띄우기</string>
+
 </resources>
