@@ -18,6 +18,7 @@ public class ReactWrapperPackage implements ReactPackage {
     @NonNull
     @Override
     public List<NativeModule> createNativeModules(@NonNull ReactApplicationContext reactApplicationContext) {
+
         List<NativeModule> modules = new ArrayList<>();
         modules.add(new ToastModule(reactApplicationContext));
         return modules;
